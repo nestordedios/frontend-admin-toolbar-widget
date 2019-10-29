@@ -1,0 +1,29 @@
+{
+    "name": "nestordedios/frontend-admin-toolbar-widget",
+    "description": "A widget that displays the admin toolbar in the frontend",
+    "type": "bolt-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Néstor de Dios Fernández",
+            "email": "nestor@twokings.nl"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3"
+    },
+    "require-dev": {
+        "bolt/core": "^4.0.0",
+        "symplify/easy-coding-standard": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NestordeDios\\FrontendAdminToolbarWidget\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "entrypoint": "NestordeDios\\FrontendAdminToolbarWidget\\Extension"
+    }
+}
