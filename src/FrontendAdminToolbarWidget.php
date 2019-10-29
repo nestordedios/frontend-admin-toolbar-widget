@@ -19,7 +19,7 @@ class FrontendAdminToolbarWidget extends BaseWidget implements TwigAware, CacheA
     use CacheTrait;
     use StopwatchTrait;
 
-    protected $name = 'Frontend admin toolbar';
+    protected $name = 'Frontend Admin Toolbar Widget';
     protected $target = AdditionalTarget::WIDGET_FRONT_MAIN_TOP;
     protected $priority = 200;
     protected $template = '@frontend-admin-toolbar-widget/toolbar.html.twig';
@@ -28,6 +28,6 @@ class FrontendAdminToolbarWidget extends BaseWidget implements TwigAware, CacheA
 
     public function run(array $params = []): ?string
     {
-        return parent::run();
+        return parent::run(['key' => 'value']);
     }
 }

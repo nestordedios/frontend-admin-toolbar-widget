@@ -10,10 +10,11 @@ class Extension extends BaseExtension
 {
     public function getName(): string
     {
-        return 'Frontend admin toolbar widget';
+        return 'Frontend Admin Toolbar Widget';
     }
 
     public function initialize(): void
     {
+        $this->registerWidget(new FrontendAdminToolbarWidget());
     }
 }
