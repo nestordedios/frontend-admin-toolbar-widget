@@ -4,5 +4,5 @@ namespace NestordeDios\Menu;
 
 interface FrontendAdminToolbarMenuBuilderInterface
 {
-    public function buildAdminToolbarMenu(): array;
+    public function buildFrontendAdminToolbarMenu(): array;
 }
