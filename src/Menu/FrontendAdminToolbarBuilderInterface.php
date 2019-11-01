@@ -1,6 +1,6 @@
 <?php
 
-namespace NestordeDios\Menu;
+namespace NestordeDios\FrontendAdminToolbarWidget\Menu;
 
 interface FrontendAdminToolbarBuilderInterface
 {
